@@ -1,0 +1,148 @@
+:root{
+    --Laranja:#ff6702;
+    --preta:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    
+    background-color: var(--preta);
+ 
+}
+header{
+    background-color: var(--Laranja);
+    padding: 10px;
+}
+a{
+    margin-top: 0px;
+    text-decoration: none;
+  
+}
+.menu{
+    color: var(--preta);
+    font-size: 25px;
+}
+
+nav{
+    height: 100%;
+    width: 0px;
+    background-color: var(--Laranja);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Sobrepor */
+    overflow: hidden;
+    transition: width 0.3s;
+}
+
+nav a {
+    color: var(--preta);
+    font-size: 25px;
+    display: block;
+    padding: 12px 10px 12px 32px;
+}
+
+nav a:hover{
+    color:var(--Laranja);
+    background-color: var(--preta);
+}
+
+main{
+    transition: margin-left 0.5s;
+
+}
+
+.menu{
+    cursor: pointer;
+}
+
+.whats{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-sizing: 1px 1px 2px #888;
+    z-index: 1000;
+
+}
+
+.fa-whatsapp{
+    margin-top: 6px;
+}
+
+
+.ifood{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 90px;
+    right: 40px;
+    background-color: #ff1500;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-sizing: 1px 1px 2px #888;
+    z-index: 1000;
+
+}
+.fa-pizza-slice{
+    margin-top: 3px;
+}
+
+.ifo{
+    margin-top: 6px;
+}
+
+.fundo{
+    height: 700px;
+
+}
+
+.whats:hover{
+    
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 50px;
+    right: 50px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-sizing: 1px 1px 2px #888;
+    z-index: 1000;
+
+
+}
+
+.ifood:hover{
+    
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 100px;
+    right: 50px;
+    background-color: #ff1500;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: 1px 1px 2px #888;
+    z-index: 1000;
+
+    
+}
